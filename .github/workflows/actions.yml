@@ -34,5 +34,5 @@ jobs:
       context: .
       push: true
       tags: |
-       ghcr.io/disk12/todo:latest
-       ghcr.io/disk12/todo:1.0.0
+       ghcr.io/${{ github.repository }}:latest
+       ghcr.io/${{ github.repository }}:1.0.0
